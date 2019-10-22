@@ -1,10 +1,16 @@
 #intuit_logo {
     height: 100px;
     width: auto;
-
 }
 
 #logo {
     height: 50px;
     width: 50px;
+}
+.wrap-logo-link{
+	text-align: center;
+}
+.logo-link{
+	display: inline-flex;
+
 }
