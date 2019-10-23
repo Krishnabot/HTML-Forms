@@ -18,17 +18,22 @@
 </head>
 
 <body>
-    <div>
-        <P>Already have an Intuit account?</P>
-        <a href="#">I forgot my User ID or Password</a>
-        <button><a href="#"><img src="img/lock.png"> Sign In </a></button>
-    </div>
-
-
-    <div>
+    <div class="container-fluid">
+        <div class="row justify-content-end">
+            <div class="header">
+                <div class="d-flex flex-column">
+                    <p>Already have an Intuit account?</p>
+                    <a href="#">I forgot my User ID or Password</a>
+                </div>
+                <button class="btn btn-primary"><a href="#"><img src="img/lock.png"> Sign In </a></button>
+            </div>
+        </div>
         <img id="intuit_logo" src="/img/logo-intuit-preferred.png" class="rounded mx-auto d-block" alt="intuit logo">
     </div>
     <div class="container">
+        <div class="row">
+
+        </div>
         <div class="row">
             <div class="col-sm wrap-logo-link">
                 <a href="#" class="logo-link">
@@ -51,10 +56,10 @@
     </div>
     <div class="row">
         <div class="col-sm-4 offset-sm-4">
-            <div class="bg-white">
+            <div class="frame bg-white">
                 <form>
                     <div class="center">
-                        <p>Create an Intuit account</p>
+                        <h1>Create an Intuit account</h1>
                         <small>One account for everything Intuit, including Mint.</small>
                         <small> <a href="#"> Learn more</a></small>
                     </div>
@@ -71,9 +76,13 @@
                                 <a href="#">Terms </a> and have read and acknowledge our <a href="#">Privacy
                                     Statement</a>.
                             </small>
-                        </div>
+                        </div>                    
                 </form>
             </div>
+            <div class="frame captcha">
+                <small>Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of Use</a>.</small>    
+            </div>
+            
         </div>
     </div>
     <footer>
