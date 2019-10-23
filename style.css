@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #eceef1;
 }
 
@@ -22,23 +22,60 @@ body{
   display: inline-flex;
 }
 
-.bg-white{
+.bg-white {
   background-color: white;
   padding: 2em;
-  margin: 0 5em;
+  margin: 0 20px;
 }
-.center{
-  text-align: center;
-}
-input[name="submit"]{
-  display: block;
-}
-footer{
+
+.center {
   text-align: center;
 }
 
-footer li{
+div button a img {
+  height: 20px;
+  width: 20px;
+}
+
+form p {
+  margin: 1.5em 0 0.5em 0;
+}
+
+.center p {
+  font-size: 25px;
+}
+
+.terms {
+  font-style: italic;
+  margin-top: 2em;
+}
+
+
+input[name="submit"] {
+  display: block;
+  margin-top: 2em;
+
+
+}
+
+input {
+  width: 100%;
+}
+
+
+
+footer {
+  text-align: center;
+
+}
+
+footer ul {
+  margin: 1em 0 0 0;
+}
+
+footer li {
   list-style: none;
   display: inline;
   margin: 0 1em;
+  color: black;
 }
