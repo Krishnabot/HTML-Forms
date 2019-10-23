@@ -1,3 +1,7 @@
+body{
+  background-color: #eceef1;
+}
+
 #intuit_logo {
   height: 60px;
   width: auto;
@@ -16,4 +20,25 @@
 
 .logo-link {
   display: inline-flex;
+}
+
+.bg-white{
+  background-color: white;
+  padding: 2em;
+  margin: 0 5em;
+}
+.center{
+  text-align: center;
+}
+input[name="submit"]{
+  display: block;
+}
+footer{
+  text-align: center;
+}
+
+footer li{
+  list-style: none;
+  display: inline;
+  margin: 0 1em;
 }
